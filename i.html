@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="i.css">
+    <title>Zift Studio - Yazılım Geliştirme</title>
+    
+</head>
+<body>
+    <div class="scroll-indicator"></div>
+    <div class="animated-bg"></div>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <nav>
+            <div class="logo">Zift Studio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#skills">Yetenekler</a></li>
+                <li><a href="#projects">Projeler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <button class="mobile-menu">Menu</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Zift Studio</h1>
+            <p>Modern web çözümleri ve yaratıcı yazılım geliştirme hizmetleri</p>
+            <a href="#projects" class="cta-button">Projelerimi İncele</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="fade-in">
+            <h2 class="section-title">Hakkımda</h2>
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <p style="font-size: 1.1rem; margin-bottom: 2rem; color: var(--text-gray);">
+                    Merhaba! Ben Zift Studio olarak, modern web teknolojileri kullanarak 
+                    kullanıcı odaklı ve performanslı uygulamalar geliştiriyorum. 
+                    Yaratıcılık ve teknolojiyi birleştirerek, müşterilerimin dijital 
+                    dünyada fark yaratmasına yardımcı oluyorum.
+                </p>
+                <p style="font-size: 1.1rem; color: var(--text-gray);">
+                    5+ yıllık deneyimimle, frontend'den backend'e, mobil uygulamalardan 
+                    web sitelerine kadar geniş bir yelpazede projeler geliştiriyorum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="fade-in">
+            <h2 class="section-title">Yeteneklerim</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Frontend Geliştirme</h3>
+                    <p>React, Vue.js, Angular, HTML5, CSS3, JavaScript ES6+</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Backend Geliştirme</h3>
+                    <p>Node.js, Python, PHP, Express.js, Django, REST API</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobil Uygulama</h3>
+                    <p>React Native, Flutter, iOS & Android Development</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Veritabanı</h3>
+                    <p>MongoDB, PostgreSQL, MySQL, Redis, Firebase</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS, Google Cloud, Docker, Kubernetes, CI/CD</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Tasarım</h3>
+                    <p>Figma, Adobe XD, Sketch, Prototyping, User Research</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="fade-in">
+            <h2 class="section-title">Projelerim</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Ticaret Platformu</h3>
+                        <p class="project-description">
+                            Modern tasarım ve güçlü backend altyapısı ile geliştirilmiş 
+                            kapsamlı e-ticaret çözümü.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sosyal Medya Uygulaması</h3>
+                        <p class="project-description">
+                            Gerçek zamanlı mesajlaşma ve içerik paylaşım özellikleri 
+                            ile modern sosyal medya platformu.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Proje Yönetim Sistemi</h3>
+                        <p class="project-description">
+                            Takım işbirliği ve proje takibi için geliştirilmiş 
+                            kapsamlı yönetim sistemi.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mobil Fitness Uygulaması</h3>
+                        <p class="project-description">
+                            Kişiselleştirilmiş antrenman planları ve ilerleme takibi 
+                            ile mobil fitness çözümü.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">GraphQL</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Chatbot Platformu</h3>
+                        <p class="project-description">
+                            Yapay zeka destekli müşteri hizmetleri chatbot sistemi 
+                            ve yönetim paneli.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blockchain Cüzdan</h3>
+                        <p class="project-description">
+                            Güvenli kripto para işlemleri için geliştirilmiş 
+                            kullanıcı dostu blockchain cüzdan uygulaması.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Web3.js</span>
+                            <span class="tech-tag">Solidity</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">MetaMask</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="fade-in">
+            <h2 class="section-title">İletişim</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Adınız</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-posta Adresiniz</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Konu</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesajınız</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div style="text-align: center;">
+                        <button type="submit" class="cta-button">Mesaj Gönder</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-link">📧</a>
+            <a href="#" class="social-link">📱</a>
+            <a href="#" class="social-link">💼</a>
+            <a href="#" class="social-link">🐱</a>
+        </div>
+        <p>&copy; 2025 Zift Studio. Tüm hakları saklıdır.</p>
+    </footer>
+
+    
+    
+</body>
+  
+    <script src="i.js"></script>
+</html>
